@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="top-left">
+        <img id="logoleft" src="../static/images/envrio_logo.png"/>
+        <p id="lezanda">Consume less, grow more</p>
+    </div>
+    <div id="panel2">
+        <p class="welcome">Successfull log in</p>
+    </div>
+    <div id="page2-redirect">
+        <form method="get" action="{{url_for('get_page2')}}">
+            <p>
+            <div>
+                <input class="button" type="submit" value="Page 2">
+            </div>
+            </p>
+        </form>
+    </div>
+</body>
+</html>
